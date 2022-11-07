@@ -54,7 +54,7 @@ function Home() {
             <h3 className="text-3xl py-1 dark:text-white font-luckiestguy">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance
-              developer, I`&apos`ve done remote work for
+              developer, I{`'`}ve done remote work for
               <span className="text-teal-600 dark:text-teal-400"> agencies </span>
               and <span className="text-teal-600 dark:text-teal-400">startups </span>
               collaborated with talanted people to create digital products
@@ -86,7 +86,7 @@ function Home() {
               </h3>
               <p className="py-2">
                 Do you have an idea for your next great website? Let
-                `&apos`s make it a
+                {`'`}s make it a
                 reality.
               </p>
               <h4 className="py-4 text-teal-500">Technologies</h4>
