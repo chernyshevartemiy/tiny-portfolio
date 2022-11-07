@@ -85,7 +85,7 @@ function Home() {
                 Code your dream project
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let'
+                Do you have an idea for your next great website? Let
                 `&apos`s make it a
                 reality.
               </p>
