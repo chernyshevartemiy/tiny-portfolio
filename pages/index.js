@@ -42,8 +42,8 @@ function Home() {
             <p className='dark:text-gray-300 font-dmsans font-medium'>In a Professional and Cost-Effective Way. Always.</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-            <a href="https://t.me/artechee" target="_blank"><FaTelegramPlane className='cursor-pointer dark:text-white'/></a>
-            <a href="https://bit.ly/3E7uhan" target="_blank"><BsWhatsapp className='cursor-pointer dark:text-white'/></a>
+            <a href="https://t.me/artechee"><FaTelegramPlane className='cursor-pointer dark:text-white'/></a>
+            <a href="https://bit.ly/3E7uhan"><BsWhatsapp className='cursor-pointer dark:text-white'/></a>
           </div>
           <div className='relative overflow-hidden mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 md:w-96 md:h-96'>
             <Image src={profile} layout="fill" objectFit="cover"/>
