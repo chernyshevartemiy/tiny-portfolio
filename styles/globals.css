@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,14 +17,22 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: "Poppins";
+  font-weight: 100;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+@font-face {
+  font-family: 'burtons';
+  src: url('../public/Burtons.otf');
 }
+
+@font-face {
+  font-family: "LuckiestGuy";
+  src: url("../public/LuckiestGuy-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../public/Poppins-Regular.ttf");
+}
+
